@@ -1,0 +1,67 @@
+{
+    "name": "commun-sheet",
+    "version": "0.0.1",
+    "description": "simple google sheet",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "webpack-dev-server --open --mode development",
+        "build": "webpack --mode production",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amit-82/commun-sheet.git"
+    },
+    "keywords": [
+        "excel",
+        "google",
+        "docs",
+        "sheet",
+        "spreadsheet"
+    ],
+    "author": "Amit Leshem",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/amit-82/commun-sheet/issues"
+    },
+    "homepage": "https://github.com/amit-82/commun-sheet#readme",
+    "jest": {
+        "setupFilesAfterEnv": [
+            "./jest-setup.ts"
+        ]
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.6",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+        "@babel/preset-env": "^7.9.6",
+        "@babel/preset-react": "^7.9.4",
+        "@babel/preset-typescript": "^7.9.0",
+        "@types/enzyme": "^3.10.5",
+        "@types/jest": "^25.2.3",
+        "@types/react": "^16.9.35",
+        "@types/react-dom": "^16.9.8",
+        "babel-jest": "^26.0.1",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.5.3",
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.2",
+        "html-webpack-plugin": "^4.3.0",
+        "jest": "^26.0.1",
+        "react-test-renderer": "^16.13.1",
+        "source-map-loader": "^0.2.4",
+        "style-loader": "^1.2.1",
+        "ts-jest": "^26.0.0",
+        "ts-loader": "^7.0.4",
+        "typescript": "^3.9.3",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "@types/enzyme-adapter-react-16": "^1.0.6",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "remove-files-webpack-plugin": "^1.4.2"
+    }
+}
